@@ -22,13 +22,12 @@ public class Hospital {
     */
     
     
-    public Hospital(){
+    public Hospital(String a, String b, int c, int d){
         nombre = "na";
         ciudad = "ciu";
         numeroDoctores = 100;
         numeroEnfermeros = 400;
     }
-    
         
     public void establecerNombre(String n){
         nombre = n;
